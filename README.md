@@ -1,3 +1,3 @@
 # treehouse_javascript
 
-Reference guide for learning Javascript.
+A personal reference guide for learning Javascript.
