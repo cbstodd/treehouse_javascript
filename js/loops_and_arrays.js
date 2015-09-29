@@ -1,5 +1,5 @@
 // Number guess While Loop
-
+/*
 var num = 10000;
 var randomNumber = getRandomNumber( num );
 var guess;
@@ -16,56 +16,56 @@ while ( guess !== randomNumber ) {
 
 document.write("<p>The random number is: " + randomNumber + "</p>");
 document.write("<p>It took the computer " + attempts + " tries to get the number right</p>");
-
+*/
 
 // Do While Loop
-var secret;
+/* var secret;
 do {
 	secret = prompt("What is the secret password?");
 
 } while ( secret !== "sesame" );
-document.write("You know the secret password. Welcome.");
+document.write("You know the secret password. Welcome."); */
 
-For Loop
+//For Loop
 
-for ( var val = 4; val < 156; val++ ) {
-	console.log(val);
-}
-
-
-
-Generate Random Colors
-var html = '';
-var red;
-var green;
-var blue;
-var rgbColor;
+// for ( var val = 4; val < 156; val++ ) {
+// 	console.log(val);
+// }
 
 
-for ( var i = 0; i <= 9; i++ ) {
-	red = Math.floor(Math.random() * 256 );
-	green = Math.floor(Math.random() * 256 );
-	blue = Math.floor(Math.random() * 256 );
-	rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
-	html += '<div style="background-color:' + rgbColor + '; width:50px; height:50px; border-radius:50%; display:inline-block; margin: 10px;"></div>';
-}
 
-document.write(html);
+// Generate Random Colors
+// var html = '';
+// var red;
+// var green;
+// var blue;
+// var rgbColor;
+//
+//
+// for ( var i = 0; i <= 9; i++ ) {
+// 	red = Math.floor(Math.random() * 256 );
+// 	green = Math.floor(Math.random() * 256 );
+// 	blue = Math.floor(Math.random() * 256 );
+// 	rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+// 	html += '<div style="background-color:' + rgbColor + '; width:50px; height:50px; border-radius:50%; display:inline-block; margin: 10px;"></div>';
+// }
+//
+// document.write(html);
 
-Print list of items to page via playList function on main.js
-var playList = [];
-
-playList.push('Alfredo');
-playList.push('Carry Me On My way');
-playList.push('Enter Sandman');
-playList.push('Roxanne')
-
-printList( playList );
+//Print list of items to page via playList function on main.js
+// var playList = [];
+//
+// playList.push('Alfredo');
+// playList.push('Carry Me On My way');
+// playList.push('Enter Sandman');
+// playList.push('Roxanne')
+//
+// printList( playList );
 
 
 //Creates asearch program to find store items
 
-
+/*
 var inStock = [ 'apples', 'eggs', 'milk', 'cookies', 'cheese', 'bread', 'lettuce', 'carrot', 'broccoli', 'pizza', 'potato', 'crackers', 'onion', 'tofu', 'frozen dinner', 'cucumber' ];
 
 var search;
